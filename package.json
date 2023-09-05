@@ -11,10 +11,12 @@
     "axios": "^1.4.0",
     "email-js": "^2.0.2",
     "eslint-config-next": "^13.4.19",
+    "find-cache-dir": "^5.0.0",
     "firebase": "^9.19.1",
     "gltf-loader": "^1.0.0",
     "jsqr": "^1.4.0",
     "next": "^13.4.19",
+    "next-on-netlify": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.4.3",
@@ -30,7 +32,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
+    "netlify": "next build && next-on-netlify",
     "start": "next start"
   },
   "browserslist": {
