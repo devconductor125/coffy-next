@@ -14,7 +14,7 @@ status = 302
 
 
 [build]
-  command = "npm run netlify"
+  command = "next build"
   publish = "out"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
