@@ -15,7 +15,7 @@ status = 302
 
 [build]
   command = "next build"
-  publish = "out"
+  publish = ".next"
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
