@@ -1,4 +1,4 @@
-module.exports = {
-  reactStrictMode: true,
-  target: "serverless",
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+module.exports = nextConfig;

@@ -34,8 +34,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "netlify": "next build && next-on-netlify",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "browserslist": {
     "production": [
