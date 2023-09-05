@@ -1,16 +1,6 @@
 # example netlify.toml
 
-[[redirects]]
-from = "/rates/*"
-force = true
-status = 200
-conditions = {Role = ["rdm", "admin"]}
 
-[[redirects]]
-from = "/rates/*"
-to = "/"
-force = true
-status = 302
 
 
 [build]
