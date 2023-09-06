@@ -5,11 +5,6 @@ const nextConfig = {
     domains: ["https://coffy-next.netlify.app/", "localhost"],
     loader: "akamai",
     path: "",
-    remotePatterns: [
-      {
-        pathname: "/**",
-      },
-    ],
   },
   NETLIFY_NEXT_PLUGIN_SKIP: true,
 };
