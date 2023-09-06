@@ -4,6 +4,7 @@
   "private": true,
   "proxy": "https://api.coffy.world",
   "dependencies": {
+    "@babel/plugin-transform-class-properties": "^7.22.5",
     "@emailjs/browser": "^3.10.0",
     "@netlify/plugin-nextjs": "^4.40.1",
     "@testing-library/jest-dom": "^5.14.1",
