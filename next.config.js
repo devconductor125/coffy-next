@@ -2,9 +2,9 @@
 const nextConfig = {
   output: "export",
   images: {
-    domains: [],
-    loader: "default",
-    path: "/",
+    domains: ["*"],
+    loader: "akamai",
+    path: "",
   },
   NETLIFY_NEXT_PLUGIN_SKIP: true,
 };
