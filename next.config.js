@@ -3,7 +3,7 @@ const nextConfig = {
   output: "export",
   images: {
     loader: "akamai",
-    path: "",
+    path: "/",
   },
   NETLIFY_NEXT_PLUGIN_SKIP: true,
 };
