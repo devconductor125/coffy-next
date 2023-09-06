@@ -1,5 +1,5 @@
 [build]
-  command = "npm install @netlify/esbuild-linux-64 && npm run build"
+  command = "npm run build"
   publish = "out"
   
 
