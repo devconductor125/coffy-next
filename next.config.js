@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     domains: ["https://coffy-next.netlify.app/", "localhost"],
     loader: "akamai",
-    path: "/",
+    path: "",
   },
   NETLIFY_NEXT_PLUGIN_SKIP: true,
 };
