@@ -10,6 +10,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "axios": "^1.4.0",
+    "babel-plugin-styled-components": "^2.1.4",
     "email-js": "^2.0.2",
     "eslint-config-next": "^13.4.19",
     "find-cache-dir": "^5.0.0",

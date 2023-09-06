@@ -9,6 +9,9 @@ const nextConfig = {
   },
   NETLIFY_NEXT_PLUGIN_SKIP: true,
   assetPrefix: "",
+  compiler: {
+    styledComponents: true,
+  },
 };
 
 module.exports = nextConfig;
