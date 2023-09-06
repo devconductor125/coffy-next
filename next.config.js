@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     domains: [],
     loader: "default",
-    path: "/_next/image",
+    path: "/",
   },
   NETLIFY_NEXT_PLUGIN_SKIP: true,
 };
