@@ -5,6 +5,7 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
+  NETLIFY_NEXT_PLUGIN_SKIP: true,
 };
 
 module.exports = nextConfig;
