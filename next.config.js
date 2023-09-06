@@ -11,6 +11,7 @@ const nextConfig = {
       },
     ],
   },
+  NETLIFY_NEXT_PLUGIN_SKIP: true,
 };
 
 module.exports = nextConfig;
