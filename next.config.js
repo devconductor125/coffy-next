@@ -7,7 +7,6 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  [[plugins]]: "@netlify/plugin-nextjs",
 };
 
 module.exports = nextConfig;
